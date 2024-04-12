@@ -1,0 +1,88 @@
+
+
+nav
+{
+}
+
+.topnav img
+{
+	display: flex;
+	float: right
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+background-color: #2CB13F;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #23562F;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #23562F;
+  color: white;
+}
+
+
+.text
+{
+	width: 1000px;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+
+.container
+{
+	display: flex;	
+	margin-left: 5%;
+}
+
+.gallery
+{
+	padding:15px;
+}
+.gallery:hover
+{
+	border: 3px solid #2CB13F;
+	padding: 5px;
+}
+.gallery img
+{
+	border: 5px solid #23562F;
+	margin-left: 5%;
+}
+
+.gallery{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+body{
+	background-image:url;
+	background-size: cover;
+	background-position: center;
+}
+.home{
+	margin-left: -10%;
+}
+
+.title{
+	font-family:cursive;
+	
+}
+footer {
+  background-color: #2CB13F;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
